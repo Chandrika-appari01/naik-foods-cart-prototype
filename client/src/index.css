@@ -1,0 +1,63 @@
+:root {
+  --color-bg: #FAF6EC;
+  --color-surface: #FFFFFF;
+  --color-ink: #262318;
+  --color-ink-soft: #6B6656;
+  --color-green: #2B5D3C;
+  --color-green-dark: #1E4029;
+  --color-gold: #D9A441;
+  --color-gold-soft: #F3DFAE;
+  --color-line: #E7E0CE;
+  --color-danger: #B5533C;
+
+  --radius-sm: 8px;
+  --radius-md: 14px;
+  --radius-lg: 20px;
+
+  --shadow-card: 0 1px 2px rgba(38, 35, 24, 0.06), 0 8px 20px -12px rgba(38, 35, 24, 0.18);
+
+  font-family: "Inter", system-ui, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background: var(--color-bg);
+  color: var(--color-ink);
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4 {
+  font-family: "Sora", "Inter", system-ui, sans-serif;
+  margin: 0;
+  color: var(--color-ink);
+}
+
+p {
+  margin: 0;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
+
+button:focus-visible,
+a:focus-visible {
+  outline: 2px solid var(--color-green);
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}

@@ -1,0 +1,22 @@
+[
+  { "name": "Roasted Makhana Masala", "category": "Snacks", "price": 89, "weight": "100g", "tagline": "Light, crunchy, roasted not fried", "imageEmoji": "🍿" },
+  { "name": "Peanut Chikki", "category": "Sweets", "price": 65, "weight": "150g", "tagline": "Jaggery and roasted peanuts", "imageEmoji": "🥜" },
+  { "name": "Sun-Dried Mango Pickle", "category": "Pickles", "price": 175, "weight": "200g", "tagline": "Sun-dried and oil-preserved", "imageEmoji": "🥭" },
+  { "name": "Millet Chakli", "category": "Snacks", "price": 95, "weight": "180g", "tagline": "Crispy millet spirals", "imageEmoji": "🌀" },
+  { "name": "Masala Papad", "category": "Snacks", "price": 45, "weight": "100g", "tagline": "Ready to roast or fry", "imageEmoji": "🫓" },
+  { "name": "Ginger Garlic Pickle", "category": "Pickles", "price": 130, "weight": "180g", "tagline": "Sharp, tangy, homestyle", "imageEmoji": "🧄" },
+  { "name": "Coconut Barfi", "category": "Sweets", "price": 140, "weight": "200g", "tagline": "Slow-cooked fresh coconut", "imageEmoji": "🍬" },
+  { "name": "Turmeric & Pepper Chai Masala", "category": "Spices", "price": 60, "weight": "50g", "tagline": "Hand-ground spice blend", "imageEmoji": "🍵" },
+  { "name": "Ragi Nachni Chips", "category": "Snacks", "price": 55, "weight": "80g", "tagline": "Finger millet, lightly salted", "imageEmoji": "🍘" },
+  { "name": "Sol Kadhi Concentrate", "category": "Dairy & Beverages", "price": 110, "weight": "250ml", "tagline": "Kokum and coconut milk base", "imageEmoji": "🥥" },
+  { "name": "Roasted Chana Namkeen", "category": "Snacks", "price": 40, "weight": "150g", "tagline": "Everyday tea-time snack", "imageEmoji": "🫘" },
+  { "name": "Green Chilli Thecha", "category": "Pickles", "price": 85, "weight": "150g", "tagline": "Fiery Maharashtrian condiment", "imageEmoji": "🌶️" },
+  { "name": "Til Gud Ladoo", "category": "Sweets", "price": 120, "weight": "200g", "tagline": "Sesame and jaggery, rolled fresh", "imageEmoji": "🍡" },
+  { "name": "Kokum Sherbet Syrup", "category": "Dairy & Beverages", "price": 150, "weight": "500ml", "tagline": "Cooling summer syrup", "imageEmoji": "🧉" },
+  { "name": "Goda Masala", "category": "Spices", "price": 70, "weight": "100g", "tagline": "The base of most Maharashtrian curries", "imageEmoji": "🌿" },
+  { "name": "Banana Chips", "category": "Snacks", "price": 50, "weight": "150g", "tagline": "Coconut-oil fried, lightly salted", "imageEmoji": "🍌" },
+  { "name": "Fennel & Sugar Mukhwas", "category": "Mukhvas", "price": 35, "weight": "80g", "tagline": "After-meal digestive mix", "imageEmoji": "🌾" },
+  { "name": "Karela Pickle", "category": "Pickles", "price": 145, "weight": "180g", "tagline": "Bitter gourd, slow pickled", "imageEmoji": "🥒" },
+  { "name": "Shrikhand Mix", "category": "Sweets", "price": 160, "weight": "250g", "tagline": "Cardamom and saffron", "imageEmoji": "🍮" },
+  { "name": "Bhajani Thalipeeth Mix", "category": "Dry Grocery", "price": 105, "weight": "300g", "tagline": "Multi-grain flatbread flour", "imageEmoji": "🫓" }
+]
