@@ -209,15 +209,37 @@ It also exercises a useful spread of the MERN stack for a short assignment: real
 
 ## 9. Technical Architecture
 
-```mermaid
-flowchart LR
-    A[React + Vite Frontend] -->|fetch /api/products| B[Express API]
-    A -->|fetch /api/products/suggestions| B
-    B -->|Mongoose queries| C[(MongoDB Atlas)]
-    B -->|JSON responses| A
-```
+```text
+┌──────────────────────────┐
+│     React + Vite         │
+│       Frontend           │
+│                          │
+│  Product Catalog         │
+│  Cart & Suggestions      │
+└────────────┬─────────────┘
+             │
+             │ REST API
+             ▼
+┌──────────────────────────┐
+│     Node.js + Express    │
+│       Backend API        │
+│                          │
+│  Products API            │
+│  Suggestion Logic        │
+└────────────┬─────────────┘
+             │
+             │ Mongoose
+             ▼
+┌──────────────────────────┐
+│      MongoDB Atlas       │
+│                          │
+│    Demo Product Data     │
+└──────────────────────────┘
 
-The frontend never talks to MongoDB directly. All data passes through the Express API, which is the only application component that holds the database connection string.
+Deployment:
+React/Vite → Netlify
+Express API → Render
+Database → MongoDB Atlas
 
 ## 10. Database Design
 
