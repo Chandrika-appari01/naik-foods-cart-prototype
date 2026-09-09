@@ -331,10 +331,23 @@ The frontend communicates with the deployed Express backend through the API, and
 
 The following screenshots demonstrate the working prototype:
 
-1. **Prototype catalog and cart:** Shows the demo product catalog and cart interface.
-2. **Free-delivery progress:** Shows the live ₹999 threshold, current subtotal, and remaining amount.
-3. **Smart suggestions:** Shows products suggested to help close the remaining amount.
-4. **Free delivery unlocked:** Shows the success state after reaching ₹999.
+### 16.1 Product Catalog
+
+![Product Catalog](screenshots/catalog.png)
+
+This screenshot shows the demo product catalog and shopping interface.
+
+### 16.2 Cart with Free Delivery Progress and Smart Suggestions
+
+![Cart with Free Delivery Progress and Smart Suggestions](screenshots/cart-progress.png)
+
+This screenshot shows the live ₹999 free-delivery progress, current cart subtotal, remaining amount, and smart product suggestions that help the user reach the free-delivery threshold.
+
+### 16.3 Free Delivery Unlocked
+
+![Free Delivery Unlocked](screenshots/unlocked.png)
+
+This screenshot shows the success state after the cart reaches ₹999 and free delivery is unlocked.
 
 The screenshots were captured from the deployed prototype during testing.
 
